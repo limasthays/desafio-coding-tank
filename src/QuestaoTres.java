@@ -9,12 +9,6 @@ public class QuestaoTres {
         scan.close();
         String acumulador = "*";
 
-//        for(int i = quantidade; i > 0; i--){
-//            for(int j = i; j>0; j--){
-//                System.out.print("*");
-//            }
-//            System.out.println();
-//        }
         for(int i = 1; i < quantidade + 1; i++){
             for(int j = quantidade - i; j >= 0; j--){
                 System.out.print(" ");
